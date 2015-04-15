@@ -4,8 +4,11 @@ synopsis:              Everything.
 description:           Install everything.
 license:               PublicDomain
 author:                David Luposchainsky
-maintainer:            dluposchainsky on googles email service
+author:                David Luposchainsky <dluposchainsky(λ)gmail.com>
+maintainer:            David Luposchainsky <dluposchainsky(λ)gmail.com>
 build-type:            Simple
+homepage:              https://github.com/quchen/acme-everything
+bug-reports:           https://github.com/quchen/acme-everything/issues
 category:              Acme
 cabal-version:         >=1.10
 
