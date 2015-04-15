@@ -6,7 +6,5 @@ if [ -e "$INDEX" ]; then
     EVERYTHING=$(tar -ztvf "$INDEX" | grep -E "\.cabal$" | perl -pe 's#^.*/([^/]+)\.cabal$#\1#' | uniq | perl -pe 's#^base$#base >= 1 && < 127#' | perl -pe 's#\n#, #g' | perl -pe 's#[,\s]+$##g')
     cp acme-everything.cabal.template acme-everything.cabal
     perl -pi -e "s#EVERYTHING#$EVERYTHING#" acme-everything.cabal
-    # echo $EVERYTHING > $HOME/temp/foobar
-    # cpp -P acme-everything.cabal.template -DEVERYTHING="$EVERYTHING" > acme-everything.cabal
     echo "Done."
 fi
