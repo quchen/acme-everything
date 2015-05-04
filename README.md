@@ -1,8 +1,7 @@
 Install *everything*
 ====================
 
-This package requires the entirety of Hackage to be built, most of it as
-transitive dependencies.
+This package requires the entirety of Hackage to be built.
 
 -------------------------------------------------------------------------------
 
