@@ -1,1 +1,1 @@
-main = return ()
+main = putStrLn "Earn three gold stars by compiling this module and running it!"
