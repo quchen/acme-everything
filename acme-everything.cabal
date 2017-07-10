@@ -34,637 +34,32 @@ library
                     , 3d-graphics-examples
                     , 3dmodels
                     , 4Blocks
+                    , a50
+                    , abc-puzzle
+                    , abeson
                     , ABList
+                    , AbortT-monadstf
+                    , abstract-deque-tests
+                    , abt
                     , AC-Boolean
                     , AC-BuildPlatform
                     , AC-Colour
                     , AC-EasyRaster-GTK
                     , AC-HalfInteger
+                    , ac-machine-conduit
                     , AC-MiniTest
                     , AC-PPM
                     , AC-Random
                     , AC-Terminal
                     , AC-VanillaArray
                     , AC-Vector-Fancy
-                    , ACME
-                    , AERN-Net
-                    , AERN-Real-Double
-                    , AERN-RnToRm-Plot
-                    , AGI
-                    , AMI
-                    , ANum
-                    , ASN1
-                    , AVar
-                    , AWin32Console
-                    , AbortT-monadstf
-                    , ActionKid
-                    , Adaptive
-                    , Adaptive-Blaisorblade
-                    , Advgame
-                    , AesonBson
-                    , Agata
-                    , Agda-executable
-                    , AhoCorasick
-                    , AlgorithmW
-                    , Allure
-                    , AndroidViewHierarchyImporter
-                    , Animas
-                    , Annotations
-                    , Ansi2Html
-                    , ApplePush
-                    , AppleScript
-                    , ApproxFun-hs
-                    , ArrayRef
-                    , ArrowVHDL
-                    , AttoBencode
-                    , Attrac
-                    , Aurochs
-                    , AutoForms
-                    , BASIC
-                    , Baggins
-                    , Bang
-                    , Barracuda
-                    , Befunge93
-                    , BerkeleyDBXML
-                    , BerlekampAlgorithm
-                    , BigPixel
-                    , Binpack
-                    , BiobaseMAF
-                    , BirdPP
-                    , BitSyntax
-                    , BlastHTTP
-                    , Blobs
-                    , BluePrintCSS
-                    , Blueprint
-                    , Bookshelf
-                    , Bravo
-                    , BufferedSocket
-                    , Buster
-                    , CBOR
-                    , CC-delcont-alt
-                    , CC-delcont-ref-tf
-                    , CHXHtml
-                    , CLASE
-                    , CLI
-                    , CMCompare
-                    , CMQ
-                    , CPBrainfuck
-                    , CPL
-                    , CSPM-cspm
-                    , CTRex
-                    , CabalSearch
-                    , Capabilities
-                    , Cardinality
-                    , CarneadesIntoDung
-                    , Cascade
-                    , Catana
-                    , Chart-simple
-                    , CheatSheet
-                    , Checked
-                    , Chitra
-                    , ChristmasTree
-                    , ClassLaws
-                    , ClassyPrelude
-                    , Clean
-                    , Clipboard
-                    , Coadjute
-                    , Codec-Compression-LZF
-                    , Combinatorrent
-                    , Command
-                    , Commando
-                    , ComonadSheet
-                    , ConcurrentUtils
-                    , Concurrential
-                    , Condor
-                    , ConfigFileTH
-                    , Configger
-                    , Configurable
-                    , ConsStream
-                    , Conscript
-                    , ContArrow
-                    , Contract
-                    , Control-Engine
-                    , Control-Monad-MultiPass
-                    , CoreErlang
-                    , CoreFoundation
-                    , Coroutine
-                    , Craft3e
-                    , DAG-Tournament
-                    , DBlimited
-                    , DBus
-                    , DMuCheck
-                    , DP
-                    , DSH
-                    , DSTM
-                    , DTC
-                    , Dao
-                    , DarcsHelpers
-                    , Data-Hash-Consistent
-                    , Data-Rope
-                    , DataTreeView
-                    , Deadpan-DDP
-                    , DecisionTree
-                    , DefendTheKing
-                    , DescriptiveKeys
-                    , Dflow
-                    , DifferentialEvolution
-                    , Digit
-                    , DigitalOcean
-                    , DimensionalHash
-                    , DisTract
-                    , DiscussionSupportSystem
-                    , Dist
-                    , DistanceTransform
-                    , DistanceUnits
-                    , DocTest
-                    , Docs
-                    , DrHylo
-                    , DrIFT-cabalized
-                    , Dust-tools-pcap
-                    , DynamicTimeWarp
-                    , DysFRP-Craftwerk
-                    , Earley
-                    , Ebnf2ps
-                    , EditTimeReport
-                    , EitherT
-                    , Emping
-                    , Encode
-                    , EnumContainers
-                    , EnumMap
-                    , Eq
-                    , EqualitySolver
-                    , EsounD
-                    , EstProgress
-                    , EtaMOO
-                    , Eternal10Seconds
-                    , Etherbunny
-                    , EuroIT
-                    , Euterpea
-                    , EventSocket
-                    , FComp
-                    , FM-SBLEX
-                    , FModExRaw
-                    , FPretty
-                    , FTGL-bytestring
-                    , FTPLine
-                    , Facts
-                    , FailureT
-                    , FastxPipe
-                    , FenwickTree
-                    , FermatsLastMargin
-                    , FerryCore
-                    , FileManip
-                    , FilePather
-                    , FileSystem
-                    , Finance-Quote-Yahoo
-                    , Finance-Treasury
-                    , FiniteMap
-                    , FixedPoint-simple
-                    , Flippi
-                    , Focus
-                    , Folly
-                    , ForSyDe
-                    , Foster
-                    , FpMLv53
-                    , Frank
-                    , FreeTypeGL
-                    , Fungi
-                    , GA
-                    , GGg
-                    , GLFW-OGL
-                    , GLFW-b-demo
-                    , GLHUI
-                    , GLMatrix
-                    , GPipe-Collada
-                    , GPipe-Examples
-                    , GTALib
-                    , Ganymede
-                    , GaussQuadIntegration
-                    , GeBoP
-                    , GenSmsPdu
-                    , GeoIp
-                    , Geodetic
-                    , GeomPredicates-SSE
-                    , GiST
-                    , GlomeView
-                    , GoogleDirections
-                    , GoogleSB
-                    , GrammarProducts
-                    , GraphHammer-examples
-                    , Grempa
-                    , GroteTrap
-                    , Grow
-                    , GrowlNotify
-                    , Gtk2hsGenerics
-                    , GtkGLTV
-                    , GuiHaskell
-                    , GuiTV
-                    , HARM
-                    , HAppSHelpers
-                    , HCard
-                    , HDBC-postgresql-hstore
-                    , HDRUtils
-                    , HERA
-                    , HGamer3D-API
-                    , HGamer3D-Bullet-Binding
-                    , HGamer3D-CAudio-Binding
-                    , HGamer3D-OIS-Binding
-                    , HGamer3D-Wire
-                    , HGraphStorage
-                    , HHDL
-                    , HJVM
-                    , HLearn-approximation
-                    , HLearn-classification
-                    , HListPP
-                    , HMM
-                    , HMap
-                    , HNM
-                    , HODE
-                    , HPath
-                    , HPi
-                    , HPlot
-                    , HPong
-                    , HROOT
-                    , HRay
-                    , HSGEP
-                    , HSHHelpers
-                    , HSlippyMap
-                    , HSmarty
-                    , HSoundFile
-                    , HSvm
-                    , HTab
-                    , HTicTacToe
-                    , HUnit-Diff
-                    , HUnit-Plus
-                    , HUnit-approx
-                    , HXMPP
-                    , HXQ
-                    , HaMinitel
-                    , HaPy
-                    , HaTeX-meta
-                    , HaTeX-qq
-                    , HaVSA
-                    , Hach
-                    , HackMail
-                    , HandlerSocketClient
-                    , HarmTrace
-                    , HasGP
-                    , Haschoo
-                    , Hashell
-                    , HaskellLM
-                    , HaskellNN
-                    , HaskellNet-SSL
-                    , HaskellTorrent
-                    , HaskellTutorials
-                    , Haskelloids
-                    , Hawk
-                    , Hayoo
-                    , Hedi
-                    , Hermes
-                    , Hieroglyph
-                    , HiggsSet
-                    , HipmunkPlayground
-                    , Histogram
-                    , Hmpf
-                    , Hoed
-                    , HoleyMonoid
-                    , Holumbus-MapReduce
-                    , Homology
-                    , HongoDB
-                    , HostAndPort
-                    , Hricket
-                    , Hs2lib
-                    , HsASA
-                    , HsHaruPDF
-                    , HsHyperEstraier
-                    , HsJudy
-                    , HsOpenSSL-x509-system
-                    , HsPerl5
-                    , HsSVN
-                    , Hsed
-                    , Hsmtlib
-                    , HueAPI
-                    , Hungarian-Munkres
-                    , IDynamic
-                    , IFS
-                    , INblobs
-                    , IOR
-                    , IORefCAS
-                    , IcoGrid
-                    , ImperativeHaskell
-                    , Interpolation
-                    , Interpolation-maxs
-                    , Irc
-                    , IrrHaskell
-                    , IsNull
-                    , JSON-Combinator-Examples
-                    , JYU-Utils
-                    , JackMiniMix
-                    , Javasf
-                    , Javav
-                    , JsContracts
-                    , JsonGrammar
-                    , JuicyPixels-canvas
-                    , JunkDB-driver-gdbm
-                    , JunkDB-driver-hashtables
-                    , JustParse
-                    , KMP
-                    , Kalman
-                    , KdTree
-                    , Ketchup
-                    , KiCS-debugger
-                    , Konf
-                    , KyotoCabinet
-                    , L-seed
-                    , LTree
-                    , LambdaCalculator
-                    , LambdaINet
-                    , LambdaNet
-                    , LambdaPrettyQuote
-                    , LambdaShell
-                    , LargeCardinalHierarchy
-                    , Lastik
-                    , Lattices
-                    , LazyVault
-                    , Level0
-                    , LibClang
-                    , Limit
-                    , LinearSplit
-                    , LinkChecker
-                    , ListTree
-                    , Logic
-                    , LslPlus
-                    , MC-Fold-DP
-                    , MFlow
-                    , MHask
-                    , MSQueue
-                    , MagicHaskeller
-                    , MaybeT-monads-tf
-                    , MazesOfMonad
-                    , MeanShift
-                    , Measure
-                    , MetaHDBC
-                    , Metrics
-                    , Mhailist
-                    , MiniAgda
-                    , MissingM
-                    , MissingPy
-                    , Modulo
-                    , Moe
-                    , MoeDict
-                    , MonadCatchIO-mtl-foreign
-                    , MonadCatchIO-transformers-foreign
-                    , MonadCompose
-                    , MonadLab
-                    , MonadRandomLazy
-                    , Monadius
-                    , Monaris
-                    , Monatron-IO
-                    , Monocle
-                    , MuCheck-HUnit
-                    , MuCheck-Hspec
-                    , MuCheck-QuickCheck
-                    , MuCheck-SmallCheck
-                    , Munkres-simple
-                    , MusicBrainz
-                    , MusicBrainz-libdiscid
-                    , NGrams
-                    , NTRU
-                    , NXTDSL
-                    , NanoProlog
-                    , NaturalLanguageAlphabets
-                    , NaturalSort
-                    , NestedSampling
-                    , Network-NineP
-                    , Ninjas
-                    , NoSlow
-                    , NoTrace
-                    , Noise
-                    , Nomyx
-                    , Nomyx-Rules
-                    , NonEmptyList
-                    , NumLazyByteString
-                    , NumberSieves
-                    , Numbers
-                    , Nussinov78
-                    , Nutri
-                    , OSM
-                    , OTP
-                    , Object
-                    , ObjectIO
-                    , Obsidian
-                    , Omega
-                    , OpenAFP-Utils
-                    , OpenCL
-                    , OpenCLRaw
-                    , OpenCLWrappers
-                    , OpenGLRaw21
-                    , OpenSCAD
-                    , OpenVG
-                    , Operads
-                    , OrPatterns
-                    , Ordinals
-                    , PArrows
-                    , PCLT-DB
-                    , PDBtools
-                    , PTQ
-                    , PageIO
-                    , Paillier
-                    , Paraiso
-                    , Parry
-                    , ParserFunction
-                    , PartialTypeSignatures
-                    , PasswordGenerator
-                    , Pathfinder
-                    , PerfectHash
-                    , PermuteEffects
-                    , Piso
-                    , PlayHangmanGame
-                    , PlayingCards
-                    , PlslTools
-                    , Plural
-                    , Pollutocracy
-                    , PortFusion
-                    , PostgreSQL
-                    , Printf-TH
-                    , PriorityChansConverger
-                    , ProbabilityMonads
-                    , ProxN
-                    , Pugs
-                    , Pup-Events
-                    , Pup-Events-Demo
-                    , QIO
-                    , QuadEdge
-                    , QuadTree
-                    , QuickAnnotate
-                    , QuickCheck-GenT
-                    , Quickson
-                    , RANSAC
-                    , RESTng
-                    , RFC1751
-                    , RMP
-                    , RNAFoldProgs
-                    , RNAdesign
-                    , RNAdraw
-                    , RNAwolf
-                    , Raincat
-                    , Random123
-                    , RandomDotOrg
-                    , Randometer
-                    , Range
-                    , Ranka
-                    , Rasenschach
-                    , Redmine
-                    , Ref
-                    , ReviewBoard
-                    , RichConditional
-                    , RollingDirectory
-                    , RxHaskell
-                    , SBench
-                    , SConfig
-                    , SDL-mpeg
-                    , SDL2-ttf
-                    , SFML-control
-                    , SGdemo
-                    , SMTPClient
-                    , SNet
-                    , SQLDeps
-                    , SVG2Q
-                    , SWMMoutGetMB
-                    , SableCC2Hs
-                    , Salsa
-                    , SciFlow
-                    , ScratchFs
-                    , Scurry
-                    , SegmentTree
-                    , Semantique
-                    , SeqAlign
-                    , SessionLogger
-                    , Shellac-haskeline
-                    , Shrub
-                    , Shu-thing
-                    , SimpleEA
-                    , SimpleGL
-                    , SimpleLog
-                    , SizeCompare
-                    , Smooth
-                    , SmtLib
-                    , Snusmumrik
-                    , SoOSiM
-                    , SoccerFunGL
-                    , Sonnex
-                    , SourceGraph
-                    , SpaceInvaders
-                    , SpacePrivateers
-                    , SpinCounter
-                    , Spock-auth
-                    , Spock-digestive
-                    , Spock-worker
-                    , Stasis
-                    , Stomp
-                    , Strafunski-Sdf2Haskell
-                    , StrategyLib
-                    , StrictBench
-                    , SyntaxMacros
-                    , Sysmon
-                    , TBC
-                    , TBit
-                    , TYB
-                    , Tables
-                    , Tablify
-                    , TeaHS
-                    , Tensor
-                    , TernaryTrees
-                    , Theora
-                    , Thingie
-                    , ThreadObjects
-                    , TicTacToe
-                    , TigerHash
-                    , TimePiece
-                    , TinyLaunchbury
-                    , TinyURL
-                    , Titim
-                    , Tournament
-                    , TraceUtils
-                    , TransformersStepByStep
-                    , Transhare
-                    , TreeCounter
-                    , TreeStructures
-                    , TreeT
-                    , Treiber
-                    , TrendGraph
-                    , Twofish
-                    , TypeClass
-                    , TypeIlluminator
-                    , TypeNat
-                    , TypingTester
-                    , UMM
-                    , URLT
-                    , URLb
-                    , Unique
-                    , Unixutils-shadow
-                    , UrlDisp
-                    , Useful
-                    , UtilityTM
-                    , VKHS
-                    , Validation
-                    , VecN
-                    , ViennaRNAParser
-                    , WL500gPControl
-                    , WMSigner
-                    , WURFL
-                    , WXDiffCtrl
-                    , WashNGo
-                    , Weather
-                    , WebBits-multiplate
-                    , WebCont
-                    , WeberLogic
-                    , Webrexp
-                    , WikimediaParser
-                    , Win32-dhcp-server
-                    , Win32-extras
-                    , Win32-junction-point
-                    , Win32-security
-                    , Win32-services-wrapper
-                    , Wired
-                    , WordNet
-                    , WordNet-ghc74
-                    , Wordlint
-                    , WxGeneric
-                    , X11-extras
-                    , X11-xdamage
-                    , X11-xfixes
-                    , XAttr
-                    , XInput
-                    , XMMS
-                    , XSaiga
-                    , Xec
-                    , XmlHtmlWriter
-                    , Xorshift128Plus
-                    , YACPong
-                    , YFrob
-                    , Yablog
-                    , YamlReference
-                    , YampaSynth
-                    , Yocto
-                    , Yogurt-Standalone
-                    , ZFS
-                    , ZMachine
-                    , ZipFold
-                    , ZipperAG
-                    , Zwaluw
-                    , a50
-                    , abc-puzzle
-                    , abeson
-                    , abstract-deque-tests
-                    , abt
-                    , ac-machine-conduit
                     , accelerate-examples
                     , accelerate-fourier-benchmark
                     , accentuateus
                     , access-time
                     , ace
                     , acid-state-tls
+                    , ACME
                     , acme-cadre
                     , acme-cofunctor
                     , acme-colosson
@@ -692,9 +87,12 @@ library
                     , acme-strtok
                     , acme-timemachine
                     , acme-year
+                    , ActionKid
                     , activehs
                     , activitystreams-aeson
                     , actor
+                    , Adaptive
+                    , Adaptive-Blaisorblade
                     , adaptive-containers
                     , adaptive-tuple
                     , adb
@@ -703,6 +101,10 @@ library
                     , adict
                     , adobe-swatch-exchange
                     , adp-multi-monadiccp
+                    , Advgame
+                    , AERN-Net
+                    , AERN-Real-Double
+                    , AERN-RnToRm-Plot
                     , aeson-bson
                     , aeson-casing
                     , aeson-native
@@ -712,12 +114,17 @@ library
                     , aeson-streams
                     , aeson-t
                     , aeson-toolkit
+                    , AesonBson
                     , affine-invariant-ensemble-mcmc
                     , afis
                     , afv
+                    , Agata
+                    , Agda-executable
                     , agda-server
                     , agentx
+                    , AGI
                     , agum
+                    , AhoCorasick
                     , air-spec
                     , airbrake
                     , aivika-experiment-cairo
@@ -729,10 +136,12 @@ library
                     , alex
                     , alfred
                     , algebraic
+                    , AlgorithmW
                     , align
                     , align-text
                     , aligned-foreignptr
                     , alloy-proxy-fd
+                    , Allure
                     , alms
                     , alpha
                     , alsa-gui
@@ -793,6 +202,7 @@ library
                     , amazonka-support
                     , amazonka-swf
                     , amazonka-workspaces
+                    , AMI
                     , ampersand
                     , amqp-conduit
                     , amrun
@@ -800,14 +210,19 @@ library
                     , anansi-hscolour
                     , anansi-pandoc
                     , anatomy
+                    , AndroidViewHierarchyImporter
                     , angel
                     , animalcase
+                    , Animas
+                    , Annotations
                     , anonymous-sums-tests
+                    , Ansi2Html
                     , antagonist
                     , anticiv
                     , antigate
                     , antimirov
                     , antlrc
+                    , ANum
                     , aosd
                     , ap-reflect
                     , apache-md5
@@ -826,8 +241,11 @@ library
                     , apotiki
                     , app-settings
                     , appc
+                    , ApplePush
+                    , AppleScript
                     , applicative-fail
                     , applicative-parsec
+                    , ApproxFun-hs
                     , approximate-equality
                     , ar-timestamp-wiper
                     , arbb-vm
@@ -845,15 +263,18 @@ library
                     , array-memoize
                     , array-primops
                     , array-utils
+                    , ArrayRef
                     , arrow-improve
                     , arrow-list
                     , arrowp
+                    , ArrowVHDL
                     , artery
                     , arx
                     , arxiv
                     , ascii-progress
                     , ascii85-conduit
                     , asic
+                    , ASN1
                     , asn1dump
                     , assembler
                     , assert
@@ -873,24 +294,30 @@ library
                     , atomic-primops-foreign
                     , atomic-primops-vector
                     , atomic-write
+                    , AttoBencode
                     , attoparsec-arff
                     , attoparsec-csv
                     , attoparsec-parsec
                     , attoparsec-text-enumerator
                     , attosplit
+                    , Attrac
                     , atuin
                     , audacity
                     , augur
                     , aur
+                    , Aurochs
                     , authinfo-hs
                     , authoring
                     , auto
+                    , AutoForms
                     , autoproc
                     , avahi
+                    , AVar
                     , avers
                     , avl-static
                     , avr-shake
                     , awesomium-glut
+                    , AWin32Console
                     , aws-cloudfront-signer
                     , aws-dynamodb-streams
                     , aws-elastic-transcoder
@@ -907,6 +334,7 @@ library
                     , backward-state
                     , bacteria
                     , bag
+                    , Baggins
                     , bake
                     , bamboo-launcher
                     , bamboo-plugin-highlight
@@ -914,15 +342,18 @@ library
                     , bamboo-theme-mini-html5
                     , bamse
                     , bamstats
+                    , Bang
                     , bank-holidays-england
                     , barchart
                     , barcodes-code128
                     , barley
+                    , Barracuda
                     , barrie
                     , barrier
                     , barrier-monad
                     , base64-conduit
                     , bash
+                    , BASIC
                     , basic-lens
                     , basic-sop
                     , baskell
@@ -932,9 +363,12 @@ library
                     , bdelta
                     , bdo
                     , beautifHOL
+                    , Befunge93
                     , bein
                     , benchmark-function
                     , berkeleydb
+                    , BerkeleyDBXML
+                    , BerlekampAlgorithm
                     , berp
                     , bet
                     , betacode
@@ -945,6 +379,7 @@ library
                     , bgzf
                     , bidirectionalization-combined
                     , bidispec-extras
+                    , BigPixel
                     , billboard-parser
                     , billeksah-main
                     , billeksah-main-static
@@ -962,7 +397,6 @@ library
                     , binding-gtk
                     , binding-wx
                     , bindings
-                    , bindings-K8055
                     , bindings-apr-util
                     , bindings-bfd
                     , bindings-common
@@ -974,6 +408,7 @@ library
                     , bindings-gsl
                     , bindings-gts
                     , bindings-hdf5
+                    , bindings-K8055
                     , bindings-libcddb
                     , bindings-libffi
                     , bindings-libftdi
@@ -988,11 +423,14 @@ library
                     , bindings-sc3
                     , bindings-uname
                     , binembed-example
+                    , Binpack
                     , bioace
+                    , BiobaseMAF
                     , biofastq
                     , biophd
                     , biostockholm
                     , bird
+                    , BirdPP
                     , bit-array
                     , bit-vector
                     , bitarray
@@ -1004,6 +442,7 @@ library
                     , bitspeak
                     , bitstream
                     , bitstring
+                    , BitSyntax
                     , bittorrent
                     , bitvec
                     , bkr
@@ -1013,6 +452,7 @@ library
                     , blakesum-demo
                     , blas
                     , blas-hs
+                    , BlastHTTP
                     , blaze
                     , blaze-from-html
                     , blaze-html-contrib
@@ -1021,14 +461,18 @@ library
                     , blaze-json
                     , blazeMarker
                     , blip
+                    , Blobs
                     , blocking-transactions
                     , blogination
                     , bloodhound
                     , bloxorz
+                    , Blueprint
+                    , BluePrintCSS
                     , bluetile
                     , bluetileutils
                     , board-games
                     , bogre-banana
+                    , Bookshelf
                     , boolean-normal-forms
                     , boolexpr
                     , bools
@@ -1043,6 +487,7 @@ library
                     , bower-json
                     , bpann
                     , brainfuck-monad
+                    , Bravo
                     , breakout
                     , breve
                     , brians-brain
@@ -1057,11 +502,13 @@ library
                     , btree-concurrent
                     , btrfs
                     , buffer-builder-aeson
+                    , BufferedSocket
                     , buildable
                     , buildbox-tools
                     , bumper
                     , burst-detection
                     , bus-pirate
+                    , Buster
                     , buster-gtk
                     , buster-network
                     , bustle
@@ -1116,6 +563,7 @@ library
                     , cabalg
                     , cabalgraph
                     , cabalmdvrpm
+                    , CabalSearch
                     , cabalvchk
                     , cabin
                     , cabocha
@@ -1137,15 +585,19 @@ library
                     , cantor
                     , cao
                     , cap
+                    , Capabilities
                     , capped-list
                     , capri
                     , caramia
                     , carboncopy
+                    , Cardinality
                     , carettah
+                    , CarneadesIntoDung
                     , cartel
                     , casadi-bindings-control
                     , casadi-bindings-ipopt-interface
                     , casadi-bindings-snopt-interface
+                    , Cascade
                     , cascading
                     , case-conversion
                     , cash
@@ -1157,9 +609,13 @@ library
                     , castle
                     , casui
                     , catamorphism
+                    , Catana
                     , categorical-algebra
                     , cayley-client
                     , cblrepo
+                    , CBOR
+                    , CC-delcont-alt
+                    , CC-delcont-ref-tf
                     , cci
                     , ccnx
                     , cctools-workqueue
@@ -1182,20 +638,26 @@ library
                     , charade
                     , charsetdetect
                     , chart-histogram
+                    , Chart-simple
                     , chaselev-deque
+                    , CheatSheet
                     , check-email
                     , check-pvp
+                    , Checked
                     , checked
                     , chell-hunit
                     , chell-quickcheck
                     , chesshs
+                    , Chitra
                     , chp-mtl
                     , chp-spec
                     , chp-transformers
+                    , ChristmasTree
                     , chronograph
                     , chu2
                     , chuchu
                     , church-list
+                    , CHXHtml
                     , cil
                     , cinvoke
                     , cio
@@ -1206,21 +668,27 @@ library
                     , clac
                     , claferwiki
                     , clanki
+                    , CLASE
                     , clash
                     , clash-ghc
                     , clash-prelude-quickcheck
+                    , ClassLaws
                     , classy-prelude-yesod
+                    , ClassyPrelude
                     , clckwrks-cli
                     , clckwrks-dot-com
                     , clckwrks-plugin-ircbot
                     , clckwrks-theme-bootstrap
                     , clckwrks-theme-geo-bootstrap
                     , cld2
+                    , Clean
                     , clean-home
                     , clean-unions
                     , cless
+                    , CLI
                     , cli
                     , click-clack
+                    , Clipboard
                     , clipper
                     , clist
                     , clocked
@@ -1239,12 +707,16 @@ library
                     , cmark
                     , cmath
                     , cmathml3
+                    , CMCompare
                     , cmd-item
                     , cmdargs-browser
                     , cmonad
+                    , CMQ
                     , cmu
                     , cnc-spec-compiler
                     , cndict
+                    , Coadjute
+                    , Codec-Compression-LZF
                     , codecov-haskell
                     , codemonitor
                     , codepad
@@ -1259,11 +731,15 @@ library
                     , coltrane
                     , combinat-diagrams
                     , combinatorics
+                    , Combinatorrent
                     , combobuffer
+                    , Command
                     , command
+                    , Commando
                     , commodities
                     , commsec-keyexchange
                     , comonad-random
+                    , ComonadSheet
                     , compact-map
                     , compare-type
                     , compdata-automata
@@ -1288,6 +764,9 @@ library
                     , concurrent-dns-cache
                     , concurrent-sa
                     , concurrent-state
+                    , Concurrential
+                    , ConcurrentUtils
+                    , Condor
                     , condor
                     , condorcet
                     , conductive-clock
@@ -1301,13 +780,18 @@ library
                     , conduit-resumablesink
                     , conf
                     , config-select
+                    , ConfigFileTH
+                    , Configger
+                    , Configurable
                     , configuration
                     , confsolve
                     , congruence-relation
                     , conjugateGradient
                     , conjure
                     , connection-pool
+                    , Conscript
                     , consistent
+                    , ConsStream
                     , const-math-ghc-plugin
                     , constrained-normal
                     , constructible
@@ -1315,16 +799,20 @@ library
                     , container-classes
                     , containers-benchmark
                     , containers-deepseq
+                    , ContArrow
                     , context-free-grammar
                     , context-stack
                     , continue
                     , continuum
                     , continuum-client
+                    , Contract
+                    , Control-Engine
                     , control-monad-attempt
                     , control-monad-exception-monadsfd
                     , control-monad-exception-monadstf
                     , control-monad-exception-mtl
                     , control-monad-failure-mtl
+                    , Control-Monad-MultiPass
                     , control-monad-queue
                     , contstuff-monads-tf
                     , contstuff-transformers
@@ -1333,6 +821,9 @@ library
                     , copr
                     , core-haskell
                     , corebot-bliki
+                    , CoreErlang
+                    , CoreFoundation
+                    , Coroutine
                     , coroutine-enumerator
                     , coroutine-iteratee
                     , couch-hs
@@ -1342,6 +833,8 @@ library
                     , countable
                     , counter
                     , court
+                    , CPBrainfuck
+                    , CPL
                     , cprng-aes-effect
                     , cpsa
                     , cpuperf
@@ -1353,6 +846,7 @@ library
                     , cqrs-test
                     , cr
                     , crack
+                    , Craft3e
                     , crc16
                     , creatur
                     , crf-chain2-generic
@@ -1376,11 +870,13 @@ library
                     , cse-ghc-plugin
                     , csound-sampler
                     , csp
+                    , CSPM-cspm
                     , cspmchecker
                     , csv-nptools
                     , csv-to-qif
                     , ctemplate
                     , ctkl
+                    , CTRex
                     , ctrie
                     , cubical
                     , cubicspline
@@ -1396,6 +892,8 @@ library
                     , d3js
                     , daemonize-doublefork
                     , dag
+                    , DAG-Tournament
+                    , Dao
                     , dao
                     , dapi
                     , darcs-benchmark
@@ -1408,6 +906,7 @@ library
                     , darcs-scripts
                     , darcs2dot
                     , darcsden
+                    , DarcsHelpers
                     , darcswatch
                     , dash-haskell
                     , data-accessor-monadLib
@@ -1421,6 +920,7 @@ library
                     , data-filepath
                     , data-fin
                     , data-fresh
+                    , Data-Hash-Consistent
                     , data-kiln
                     , data-layout
                     , data-lens-ixset
@@ -1432,6 +932,7 @@ library
                     , data-quotientref
                     , data-reify-cse
                     , data-rev
+                    , Data-Rope
                     , data-rope
                     , data-size
                     , data-spacepart
@@ -1442,9 +943,12 @@ library
                     , database-migrate
                     , database-study
                     , datapacker
+                    , DataTreeView
                     , dbcleaner
                     , dbjava
+                    , DBlimited
                     , dbmigrations
+                    , DBus
                     , dbus-qq
                     , dbus-th
                     , dclabel
@@ -1452,15 +956,18 @@ library
                     , ddc-war
                     , ddci-core
                     , dead-simple-json
+                    , Deadpan-DDP
                     , debian-binary
                     , debug-diff
                     , decepticons
+                    , DecisionTree
                     , decoder-conduit
                     , dedukti
                     , deepseq-magic
                     , deepseq-th
                     , deepzoom
                     , defargs
+                    , DefendTheKing
                     , definitive-graphics
                     , definitive-sound
                     , deiko-config
@@ -1474,15 +981,17 @@ library
                     , dephd
                     , derangement
                     , derivation-trees
-                    , derive-IG
                     , derive-gadt
+                    , derive-IG
                     , derive-topdown
                     , derp-lib
+                    , DescriptiveKeys
                     , despair
                     , detrospector
                     , deunicode
                     , devil
                     , dewdrop
+                    , Dflow
                     , dfrac
                     , dfsbuild
                     , dgim
@@ -1500,6 +1009,7 @@ library
                     , diff3
                     , diffcabal
                     , diffdump
+                    , DifferentialEvolution
                     , digest-pure
                     , digestive-bootstrap
                     , digestive-foundation-lucid
@@ -1507,7 +1017,10 @@ library
                     , digestive-functors-happstack
                     , digestive-functors-hsp
                     , digestive-functors-scotty
+                    , Digit
                     , digit
+                    , DigitalOcean
+                    , DimensionalHash
                     , dingo-example
                     , diophantine
                     , direct-binary-files
@@ -1521,10 +1034,15 @@ library
                     , discordian-calendar
                     , discount
                     , discrete-space-map
+                    , DiscussionSupportSystem
                     , disjoint-set
                     , disjoint-sets-st
                     , disk-free-space
+                    , Dist
                     , dist-upload
+                    , DistanceTransform
+                    , DistanceUnits
+                    , DisTract
                     , distributed-process-azure
                     , distributed-process-monad-control
                     , distributed-process-platform
@@ -1533,12 +1051,15 @@ library
                     , distribution-plot
                     , djinn
                     , djinn-th
+                    , DMuCheck
                     , dnsrbl
                     , dnssd
                     , doc-review
                     , doccheck
                     , docidx
                     , docker
+                    , Docs
+                    , DocTest
                     , doctest-discover
                     , doctest-discover-configurator
                     , doctest-prop
@@ -1552,23 +1073,30 @@ library
                     , dow
                     , download-media-content
                     , dozenal
+                    , DP
                     , dph-examples
                     , dph-lifted-copy
                     , dph-par
                     , dpkg
-                    , drClickOn
                     , drawille
+                    , drClickOn
+                    , DrHylo
+                    , DrIFT-cabalized
                     , drifter
                     , dropbox-sdk
                     , dropsolve
                     , ds-kanren
+                    , DSH
                     , dsmc-tools
                     , dson
                     , dson-parsec
+                    , DSTM
+                    , DTC
                     , dtd
                     , dtd-text
                     , dtrace
                     , dtw
+                    , Dust-tools-pcap
                     , dvda
                     , dvdread
                     , dvi-processing
@@ -1579,12 +1107,16 @@ library
                     , dynamic-mvector
                     , dynamic-object
                     , dynamic-plot
+                    , DynamicTimeWarp
+                    , DysFRP-Craftwerk
                     , dzen-utils
                     , eager-sockets
+                    , Earley
                     , easy-api
                     , easyjson
                     , easyrender
                     , ebeats
+                    , Ebnf2ps
                     , ec2-signature
                     , ecu
                     , ed25519
@@ -1597,6 +1129,7 @@ library
                     , edit-lenses
                     , edit-lenses-demo
                     , editable
+                    , EditTimeReport
                     , effect-handlers
                     , effect-monad
                     , effective-aspects
@@ -1608,6 +1141,7 @@ library
                     , eibd-client-simple
                     , eigen
                     , eithers
+                    , EitherT
                     , ekg-bosun
                     , ekg-carbon
                     , ekg-log
@@ -1630,16 +1164,20 @@ library
                     , embeddock-example
                     , embroidery
                     , emgm
+                    , Emping
                     , empty
+                    , Encode
                     , endo
                     , engine-io-growler
                     , engine-io-snap
                     , engine-io-yesod
                     , engineering-units
+                    , EnumContainers
                     , enumeration
                     , enumerator-fd
                     , enumerator-tf
                     , enumfun
+                    , EnumMap
                     , enummapmap
                     , env-parser
                     , envparse
@@ -1647,7 +1185,9 @@ library
                     , epass
                     , epub-tools
                     , epubname
+                    , Eq
                     , equal-files
+                    , EqualitySolver
                     , erd
                     , erf-native
                     , erlang
@@ -1661,17 +1201,25 @@ library
                     , errorcall-eq-instance
                     , ersatz-toysat
                     , esotericbot
+                    , EsounD
                     , ess
                     , estimator
                     , estimators
+                    , EstProgress
                     , estreps
+                    , EtaMOO
                     , etcd
                     , eternal
+                    , Eternal10Seconds
+                    , Etherbunny
                     , ethereum-client-haskell
                     , ety
                     , euler
                     , eurofxref
+                    , EuroIT
+                    , Euterpea
                     , event-monad
+                    , EventSocket
                     , eventstore
                     , every-bit-counts
                     , ewe
@@ -1699,9 +1247,11 @@ library
                     , extractelf
                     , ez-couch
                     , faceted
+                    , Facts
                     , factual-api
                     , fad
                     , failable-list
+                    , FailureT
                     , fair-predicates
                     , faker
                     , falling-turnip
@@ -1713,6 +1263,7 @@ library
                     , fast-tagsoup-utf8-only
                     , fastbayes
                     , fastedit
+                    , FastxPipe
                     , fault-tree
                     , fay-builder
                     , fay-hsx
@@ -1722,6 +1273,7 @@ library
                     , fca
                     , fckeditor
                     , fclabels-monadlib
+                    , FComp
                     , feature-flags
                     , fec
                     , fedora-packages
@@ -1732,6 +1284,9 @@ library
                     , feldspar-signal
                     , fences
                     , fenfire
+                    , FenwickTree
+                    , FermatsLastMargin
+                    , FerryCore
                     , ffeed
                     , fficxx
                     , ffmpeg-light
@@ -1744,14 +1299,20 @@ library
                     , fig
                     , file-command-qq
                     , filediff
+                    , FileManip
                     , filepath-io-access
+                    , FilePather
                     , filepather
+                    , FileSystem
                     , filesystem-enumerator
                     , filesystem-trees
                     , filtrable
                     , final
+                    , Finance-Quote-Yahoo
+                    , Finance-Treasury
                     , fingertree-psqueue
                     , fingertree-tf
+                    , FiniteMap
                     , first-class-patterns
                     , firstify
                     , fishfood
@@ -1768,6 +1329,7 @@ library
                     , fixed-storable-array
                     , fixed-vector-binary
                     , fixed-vector-cereal
+                    , FixedPoint-simple
                     , fixedwidth-hs
                     , fixhs
                     , fixpoint
@@ -1781,6 +1343,7 @@ library
                     , flexiwrap-smallcheck
                     , flickr
                     , flippers
+                    , Flippi
                     , flo
                     , float-binstring
                     , floating-bits
@@ -1792,10 +1355,14 @@ library
                     , flowsim
                     , fluent-logger-conduit
                     , fluidsynth
+                    , FM-SBLEX
                     , fmark
+                    , FModExRaw
+                    , Focus
                     , foldl-incremental
                     , folds-common
                     , follower
+                    , Folly
                     , foo
                     , for-free
                     , forbidden-fruit
@@ -1809,16 +1376,21 @@ library
                     , format-status
                     , forml
                     , formlets-hsp
+                    , ForSyDe
                     , forth-hll
+                    , Foster
                     , fountain
                     , fpipe
+                    , FpMLv53
                     , fpnla-examples
+                    , FPretty
                     , fptest
                     , fquery
                     , fractal
                     , frag
                     , frame-markdown
                     , franchise
+                    , Frank
                     , free-functors
                     , free-operational
                     , free-theorems-counterexamples
@@ -1828,6 +1400,7 @@ library
                     , freesect
                     , freesound
                     , freetype-simple
+                    , FreeTypeGL
                     , fresh
                     , friday-devil
                     , frisby
@@ -1838,7 +1411,9 @@ library
                     , fsutils
                     , fswatcher
                     , ftdi
+                    , FTGL-bytestring
                     , ftp-conduit
+                    , FTPLine
                     , ftree
                     , ftshell
                     , fugue
@@ -1851,6 +1426,7 @@ library
                     , functor-apply
                     , functor-combo
                     , functorm
+                    , Fungi
                     , funion
                     , funpat
                     , futun
@@ -1861,18 +1437,22 @@ library
                     , fwgl-glfw
                     , fwgl-javascript
                     , g-npm
+                    , GA
                     , gact
                     , game-probability
                     , game-tree
                     , gameclock
                     , gang-of-threads
+                    , Ganymede
                     , garepinoh
                     , garsia-wachs
+                    , GaussQuadIntegration
                     , gbu
                     , gc-monitoring-wai
                     , gdiff-ig
                     , gdiff-th
                     , gearbox
+                    , GeBoP
                     , geek-server
                     , gemstone
                     , gencheck
@@ -1896,17 +1476,22 @@ library
                     , geniconvert
                     , geniplate-mirror
                     , genprog
+                    , GenSmsPdu
                     , gentlemark
                     , geocalc
+                    , Geodetic
                     , geodetic
                     , geodetics
                     , geohash
+                    , GeoIp
                     , geoip2
                     , geojson
+                    , GeomPredicates-SSE
                     , getemx
                     , getflag
                     , getopt-generics
                     , getopt-simple
+                    , GGg
                     , ggtsTC
                     , ghc-core
                     , ghc-core-html
@@ -1935,6 +1520,7 @@ library
                     , ght
                     , ginsu
                     , gipeda
+                    , GiST
                     , gist
                     , git-all
                     , git-annex
@@ -1961,12 +1547,17 @@ library
                     , gladexml-accessor
                     , glapp
                     , glasso
+                    , GLFW-b-demo
+                    , GLFW-OGL
+                    , GLHUI
                     , glintcollider
                     , gll
+                    , GLMatrix
                     , global
                     , global-config
                     , global-lock
                     , glome-hs
+                    , GlomeView
                     , gloss-banana
                     , gloss-devil
                     , gloss-examples
@@ -1983,14 +1574,19 @@ library
                     , google-html5-slide
                     , google-mail-filters
                     , google-oauth2
+                    , GoogleDirections
                     , googleplus
+                    , GoogleSB
                     , gopherbot
                     , gpah
                     , gpcsets
+                    , GPipe-Collada
+                    , GPipe-Examples
                     , gps2htmlReport
                     , gpx-conduit
                     , graceful
                     , grammar-combinators
+                    , GrammarProducts
                     , grapefruit-examples
                     , grapefruit-ui-gtk
                     , graph-generators
@@ -2004,20 +1600,26 @@ library
                     , graph-utils
                     , graphbuilder
                     , graphene
+                    , GraphHammer-examples
                     , graphics-formats-collada
                     , graphmod
                     , graphs
                     , graphtype
                     , greencard-lib
                     , greg-client
+                    , Grempa
+                    , GroteTrap
                     , groundhog-mysql
                     , group-with
                     , groupoid
+                    , Grow
+                    , GrowlNotify
                     , gruff-examples
                     , gsc-weighting
                     , gsl-random-fu
                     , gsmenu
                     , gt-tools
+                    , GTALib
                     , gtfs
                     , gtk-jsinput
                     , gtk-mac-integration
@@ -2031,33 +1633,22 @@ library
                     , gtk2hs-cast-gtksourceview2
                     , gtk2hs-hello
                     , gtk2hs-rpn
+                    , Gtk2hsGenerics
                     , gtk3-mac-integration
+                    , GtkGLTV
                     , gtkrsync
                     , guarded-rewriting
                     , guess-combinator
+                    , GuiHaskell
+                    , GuiTV
                     , gulcii
                     , gutenberg-fibonaccis
                     , h-booru
                     , h-gpgme
                     , h2048
-                    , hArduino
-                    , hBDD-CUDD
-                    , hCsound
-                    , hDFA
-                    , hGelf
-                    , hLLVM
-                    , hMollom
-                    , hPDB-examples
-                    , hPushover
-                    , hR
-                    , hRESP
-                    , hSimpleDB
-                    , hTalos
-                    , hTensor
-                    , hVOIDP
-                    , hXmixer
                     , haar
                     , hacanon-light
+                    , Hach
                     , hack-contrib-press
                     , hack-frontend-happstack
                     , hack-frontend-monadcgi
@@ -2084,6 +1675,7 @@ library
                     , hackager
                     , hackernews
                     , hackertyper
+                    , HackMail
                     , hackport
                     , hactor
                     , hactors
@@ -2106,9 +1698,11 @@ library
                     , hakyll-elm
                     , halipeto
                     , haltavista
+                    , HaMinitel
                     , hampp
                     , hamtmap
                     , hamusic
+                    , HandlerSocketClient
                     , handsy
                     , hangman
                     , hannahci
@@ -2120,6 +1714,7 @@ library
                     , happs-hsp
                     , happs-hsp-template
                     , happs-tutorial
+                    , HAppSHelpers
                     , happstack-clientsession
                     , happstack-contrib
                     , happstack-dlg
@@ -2137,17 +1732,24 @@ library
                     , happy
                     , happybara-webkit
                     , happybara-webkit-server
+                    , HaPy
                     , har
                     , harchive
+                    , hArduino
                     , hark
+                    , HARM
+                    , HarmTrace
                     , haroonga-httpd
                     , has-th
                     , hascal
                     , hascat
+                    , Haschoo
+                    , HasGP
                     , hash
                     , hashable-generics
                     , hashable-time
                     , hashabler
+                    , Hashell
                     , hashring
                     , hashtables-plus
                     , hasim
@@ -2200,7 +1802,13 @@ library
                     , haskelldb-hsql-sqlite3
                     , haskelldb-th
                     , haskelldb-wx
+                    , HaskellLM
+                    , HaskellNet-SSL
+                    , HaskellNN
+                    , Haskelloids
                     , haskellscrabble
+                    , HaskellTorrent
+                    , HaskellTutorials
                     , haskelm
                     , haskhol-core
                     , haskmon
@@ -2219,28 +1827,37 @@ library
                     , haste-markup
                     , hat
                     , hatex-guide
+                    , HaTeX-meta
+                    , HaTeX-qq
                     , hath
+                    , HaVSA
                     , hawitter
+                    , Hawk
                     , haxl-facebook
                     , haxr-th
                     , haxy
+                    , Hayoo
                     , hayoo-cli
                     , hback
                     , hbayes
                     , hbb
                     , hbcd
+                    , hBDD-CUDD
                     , hbeanstalk
                     , hbeat
                     , hblas
                     , hbro-contrib
                     , hburg
+                    , HCard
                     , hcc
                     , hchesslib
                     , hcltest
                     , hcron
+                    , hCsound
                     , hcube
                     , hdaemonize-buildfix
                     , hdbc-aeson
+                    , HDBC-postgresql-hstore
                     , hdbc-postgresql-hstore
                     , hdbc-tuple
                     , hdbi-conduit
@@ -2249,13 +1866,16 @@ library
                     , hdbi-tests
                     , hdevtools
                     , hdf
+                    , hDFA
                     , hdigest
                     , hdirect
                     , hdiscount
                     , hdm
                     , hdph
+                    , HDRUtils
                     , heapsort
                     , hebrew-time
+                    , Hedi
                     , hedis-config
                     , hedis-monadic
                     , hedis-simple
@@ -2273,7 +1893,9 @@ library
                     , henet
                     , hepevt
                     , her-lexer-parsec
+                    , HERA
                     , herbalizer
+                    , Hermes
                     , hermit-syb
                     , heroku-persistent
                     , herringbone-embed
@@ -2299,13 +1921,21 @@ library
                     , hg-buildpackage
                     , hgal
                     , hgalib
+                    , HGamer3D-API
+                    , HGamer3D-Bullet-Binding
+                    , HGamer3D-CAudio-Binding
+                    , HGamer3D-OIS-Binding
+                    , HGamer3D-Wire
                     , hgdbmi
+                    , hGelf
                     , hgen
                     , hgeometric
                     , hgl-example
                     , hgom
                     , hgopher
+                    , HGraphStorage
                     , hharp
+                    , HHDL
                     , hi
                     , hiccup
                     , hichi
@@ -2313,10 +1943,12 @@ library
                     , hierarchical-clustering-diagrams
                     , hierarchical-exceptions
                     , hiernotify
-                    , highWaterMark
+                    , Hieroglyph
+                    , HiggsSet
                     , higher-leveldb
                     , highlight-versions
                     , highlighter2
+                    , highWaterMark
                     , hills
                     , himerge
                     , himg
@@ -2327,11 +1959,13 @@ library
                     , hinze-streams
                     , hipbot
                     , hipe
+                    , HipmunkPlayground
                     , hips
                     , hircules
                     , hirt
                     , hissmetrics
                     , hist-pl
+                    , Histogram
                     , histogram-fill-binary
                     , histogram-fill-cereal
                     , historian
@@ -2340,8 +1974,11 @@ library
                     , hjs
                     , hjson-query
                     , hjsonschema
+                    , HJVM
                     , hlatex
                     , hlcm
+                    , HLearn-approximation
+                    , HLearn-classification
                     , hledger-chart
                     , hledger-diff
                     , hledger-interest
@@ -2350,8 +1987,11 @@ library
                     , hlibBladeRF
                     , hlibev
                     , hlibfam
+                    , HListPP
+                    , hLLVM
                     , hlongurl
                     , hly
+                    , HMap
                     , hmark
                     , hmatrix-banded
                     , hmatrix-csv
@@ -2366,16 +2006,22 @@ library
                     , hmatrix-tests
                     , hmeap-utils
                     , hmemdb
+                    , HMM
                     , hmm
                     , hmm-hmatrix
+                    , hMollom
                     , hmp3
+                    , Hmpf
                     , hmt-diagrams
                     , hmumps
+                    , HNM
                     , hnn
                     , hnop
                     , hobbes
                     , hobbits
+                    , HODE
                     , hoe
+                    , Hoed
                     , hofix-mtl
                     , hog
                     , hogg
@@ -2383,7 +2029,11 @@ library
                     , hold-em
                     , hole
                     , holey-format
+                    , HoleyMonoid
+                    , Holumbus-MapReduce
                     , hommage-ds
+                    , Homology
+                    , HongoDB
                     , honi
                     , honk
                     , hoobuddy
@@ -2400,6 +2050,7 @@ library
                     , hoq
                     , horizon
                     , hosc-utils
+                    , HostAndPort
                     , hostname-validate
                     , hosts-server
                     , hothasktags
@@ -2413,23 +2064,33 @@ library
                     , hpapi
                     , hpaste
                     , hpasteit
+                    , HPath
                     , hpc-coveralls
                     , hpc-strobe
                     , hpc-tracer
+                    , hPDB-examples
+                    , HPi
                     , hplayground
                     , hplaylist
+                    , HPlot
                     , hpodder
+                    , HPong
                     , hprotoc
                     , hprotoc-fork
                     , hps-kmeans
+                    , hPushover
                     , hpuz
                     , hpygments
                     , hpylos
                     , hpyrg
                     , hquantlib
+                    , hR
                     , hranker
+                    , HRay
+                    , hRESP
+                    , Hricket
                     , hricket
-                    , hs-GeoIP
+                    , HROOT
                     , hs-blake2
                     , hs-captcha
                     , hs-carbon-examples
@@ -2438,6 +2099,7 @@ library
                     , hs-excelx
                     , hs-fltk
                     , hs-gen-iface
+                    , hs-GeoIP
                     , hs-gizapp
                     , hs-inspector
                     , hs-java
@@ -2454,8 +2116,8 @@ library
                     , hs-vcard
                     , hs2bf
                     , hs2dot
-                    , hsSqlite3
-                    , hsXenCtrl
+                    , Hs2lib
+                    , HsASA
                     , hsass
                     , hsay
                     , hsb2hs
@@ -2478,23 +2140,33 @@ library
                     , hsdip
                     , hsdns-cache
                     , hsebaysdk
+                    , Hsed
                     , hsemail-ns
                     , hsenv
                     , hserv
                     , hsexif
                     , hsfcsh
                     , hsfilt
+                    , HSGEP
                     , hsgnutls-yj
                     , hsgsom
                     , hsgtd
+                    , HsHaruPDF
+                    , HSHHelpers
+                    , HsHyperEstraier
                     , hsignal
                     , hsilop
+                    , hSimpleDB
+                    , HsJudy
                     , hslackbuilder
                     , hslibsvm
                     , hslinks
+                    , HSlippyMap
                     , hslogger4j
                     , hslogstash
+                    , HSmarty
                     , hsmisc
+                    , Hsmtlib
                     , hsmtpclient
                     , hsndfile-storablevector
                     , hsnock
@@ -2502,6 +2174,8 @@ library
                     , hsns
                     , hsnsq
                     , hsntp
+                    , HsOpenSSL-x509-system
+                    , HSoundFile
                     , hsp-cgi
                     , hspear
                     , hspec-attoparsec
@@ -2522,6 +2196,7 @@ library
                     , hspec-wai-json
                     , hspec-webdriver
                     , hspec2
+                    , HsPerl5
                     , hspr-sh
                     , hspresent
                     , hsprocess
@@ -2532,18 +2207,26 @@ library
                     , hsreadability
                     , hsshellscript
                     , hssourceinfo
+                    , hsSqlite3
+                    , HsSVN
                     , hstest
                     , hstidy
                     , hstyle
                     , hstzaar
                     , hsubconvert
                     , hsverilog
+                    , HSvm
                     , hswip
                     , hsx-xhtml
+                    , hsXenCtrl
                     , hsyscall
                     , hszephyr
+                    , HTab
                     , htags
+                    , hTalos
                     , htar
+                    , hTensor
+                    , HTicTacToe
                     , htiled
                     , htime
                     , html-email-validate
@@ -2572,12 +2255,17 @@ library
                     , htzaar
                     , hub
                     , hubris
+                    , HueAPI
                     , huffman
                     , hugs2yc
                     , hulk
                     , hums
+                    , Hungarian-Munkres
+                    , HUnit-approx
+                    , HUnit-Diff
                     , hunit-gui
                     , hunit-parsec
+                    , HUnit-Plus
                     , hunit-rematch
                     , hunp
                     , hunt-server
@@ -2588,11 +2276,15 @@ library
                     , hutton
                     , huzzy
                     , hvect
+                    , hVOIDP
                     , hwall-auth-iitk
                     , hweblib
                     , hws
                     , hwsl2
+                    , hXmixer
+                    , HXMPP
                     , hxmppc
+                    , HXQ
                     , hxt-binary
                     , hxt-css
                     , hxt-extras
@@ -2616,18 +2308,21 @@ library
                     , hypher
                     , hzulip
                     , i18n
-                    , iCalendar
-                    , iException
                     , iban
+                    , iCalendar
+                    , IcoGrid
                     , ide-backend-rts
                     , ide-backend-server
                     , ideas-math
                     , idempotent
                     , identifiers
                     , idna2008
+                    , IDynamic
                     , ieee-utils-tempfix
                     , ieee754-parser
+                    , iException
                     , iff
+                    , IFS
                     , ig
                     , ige-mac-integration
                     , igraph
@@ -2653,9 +2348,11 @@ library
                     , imgurder
                     , immortal
                     , imparse
+                    , ImperativeHaskell
                     , implicit
                     , imports
                     , improve
+                    , INblobs
                     , inc-ref
                     , inch
                     , include-file
@@ -2692,13 +2389,17 @@ library
                     , interpolate
                     , interpolatedstring-qq
                     , interpolatedstring-qq-mwotton
+                    , Interpolation
                     , interpolation
+                    , Interpolation-maxs
                     , intricacy
                     , io-capture
                     , io-memoize
                     , io-region
                     , io-streams-http
                     , io-throttle
+                    , IOR
+                    , IORefCAS
                     , iothread
                     , iotransaction
                     , ip6addr
@@ -2706,17 +2407,20 @@ library
                     , ipc
                     , ipcvar
                     , iptadmin
+                    , Irc
                     , irc-bytestring
                     , irc-client
                     , irc-colors
                     , ircbouncer
                     , ireal
                     , iron-mq
+                    , IrrHaskell
                     , is
                     , isdicom
                     , isiz
                     , islink
                     , ismtp
+                    , IsNull
                     , iso8583-bitmaps
                     , isohunt
                     , iter-stats
@@ -2735,6 +2439,7 @@ library
                     , j2hs
                     , jack
                     , jack-bindings
+                    , JackMiniMix
                     , jackminimix
                     , jail
                     , jailbreak-cabal
@@ -2742,7 +2447,9 @@ library
                     , jalla
                     , jarfind
                     , java-character
+                    , Javasf
                     , javasf
+                    , Javav
                     , javav
                     , jcdecaux-vls
                     , jmacro-rpc-happstack
@@ -2757,9 +2464,11 @@ library
                     , js-good-parts
                     , jsaddle-hello
                     , jsc
+                    , JsContracts
                     , jsmw
                     , json-assertions
                     , json-autotype
+                    , JSON-Combinator-Examples
                     , json-enumerator
                     , json-extra
                     , json-fu
@@ -2770,6 +2479,7 @@ library
                     , json-tools
                     , json2-hdbc
                     , json2yaml
+                    , JsonGrammar
                     , jsonresume
                     , jsonrpc-conduit
                     , jsonschema-gen
@@ -2777,9 +2487,15 @@ library
                     , jsontsv
                     , jspath
                     , judy
+                    , JuicyPixels-canvas
                     , jumpthefive
+                    , JunkDB-driver-gdbm
+                    , JunkDB-driver-hashtables
+                    , JustParse
                     , jvm-parser
+                    , JYU-Utils
                     , kafka-client
+                    , Kalman
                     , kansas-lava-papilio
                     , kansas-lava-shake
                     , karakuri
@@ -2788,26 +2504,33 @@ library
                     , kd-tree
                     , kdesrc-build-extra
                     , kdt
+                    , KdTree
                     , keiretsu
+                    , Ketchup
                     , kevin
                     , keycode
                     , keyvaluehash
                     , kicad-data
                     , kickass-torrents-dump-parser
                     , kickchan
+                    , KiCS-debugger
                     , kif-parser
                     , kit
                     , kmeans
                     , kmeans-par
+                    , KMP
                     , koellner-phonetic
+                    , Konf
                     , kontrakcja-templates
                     , koofr-client
                     , korfu
                     , kqueue
                     , ks-test
                     , kure-your-boilerplate
+                    , KyotoCabinet
                     , kyotocabinet
                     , l-bfgs-b
+                    , L-seed
                     , labeled-graph
                     , labyrinth-server
                     , laika
@@ -2816,15 +2539,20 @@ library
                     , lambda-placeholders
                     , lambda-toolbox
                     , lambda2js
-                    , lambdaFeed
-                    , lambdaLit
                     , lambdabot
                     , lambdabot-utils
+                    , LambdaCalculator
                     , lambdacat
                     , lambdacms-media
                     , lambdacube
                     , lambdacube-examples
                     , lambdacube-samples
+                    , lambdaFeed
+                    , LambdaINet
+                    , lambdaLit
+                    , LambdaNet
+                    , LambdaPrettyQuote
+                    , LambdaShell
                     , lambdatwit
                     , lambdiff
                     , lame-tester
@@ -2847,14 +2575,18 @@ library
                     , language-spelling
                     , language-sqlite
                     , language-thrift
+                    , LargeCardinalHierarchy
+                    , Lastik
                     , lat
                     , latest-npm-version
+                    , Lattices
                     , lax
                     , layers
                     , layers-game
                     , layout-bootstrap
                     , lazyarray
                     , lazysplines
+                    , LazyVault
                     , lbfgs
                     , lca
                     , lcs
@@ -2872,18 +2604,20 @@ library
                     , lens-properties
                     , lens-text-encoding
                     , lens-time
+                    , Level0
                     , levmar-chart
                     , lexer-applicative
                     , lhae
                     , lhc
                     , lhe
-                    , lhs2TeX-hl
                     , lhs2html
                     , lhs2tex
+                    , lhs2TeX-hl
                     , lhslatex
-                    , libGenI
+                    , LibClang
                     , libconfig
                     , libexpect
+                    , libGenI
                     , libgit
                     , libjenkins
                     , liblastfm
@@ -2906,6 +2640,7 @@ library
                     , ligature
                     , ligd
                     , lighttpd-conf-qq
+                    , Limit
                     , limp-cbc
                     , lin-alg
                     , linda
@@ -2915,8 +2650,10 @@ library
                     , linear-vect
                     , linearEqSolver
                     , linearscan-hoopl
+                    , LinearSplit
                     , linebreak
                     , linguistic-ordinals
+                    , LinkChecker
                     , linkchk
                     , linkcore
                     , linkedhashmap
@@ -2946,6 +2683,7 @@ library
                     , list-t-http-client
                     , list-t-libcurl
                     , list-t-text
+                    , ListTree
                     , lit
                     , literals
                     , live-sequencer
@@ -2967,8 +2705,9 @@ library
                     , log2json
                     , logger
                     , logging-facade-journald
-                    , logic-TPTP
+                    , Logic
                     , logic-classes
+                    , logic-TPTP
                     , logicst
                     , logsink
                     , lojban
@@ -2984,8 +2723,10 @@ library
                     , lowgl
                     , ls-usb
                     , lscabal
+                    , LslPlus
                     , lsystem
                     , ltl
+                    , LTree
                     , lua-bytecode
                     , luachunk
                     , lucienne
@@ -3006,6 +2747,7 @@ library
                     , macho
                     , macosx-make-standalone
                     , mage
+                    , MagicHaskeller
                     , magma
                     , mahoro
                     , maid
@@ -3042,11 +2784,16 @@ library
                     , maximal-cliques
                     , maxsharing
                     , maybench
+                    , MaybeT-monads-tf
+                    , MazesOfMonad
                     , mbox-tools
+                    , MC-Fold-DP
                     , mcmaster-gloss-examples
                     , mcmc-samplers
                     , mdcat
                     , mdo
+                    , MeanShift
+                    , Measure
                     , mecab
                     , mecha
                     , mediawiki2latex
@@ -3063,13 +2810,18 @@ library
                     , meta-misc
                     , meta-par-accelerate
                     , metadata
+                    , MetaHDBC
                     , metamorphic
                     , metaplug
+                    , Metrics
                     , metrics
                     , metricsd-client
                     , metronome
+                    , MFlow
                     , mfsolve
                     , mgeneric
+                    , Mhailist
+                    , MHask
                     , mi
                     , microbench
                     , microformats2-types
@@ -3085,6 +2837,7 @@ library
                     , milena
                     , mines
                     , minesweeper
+                    , MiniAgda
                     , miniball
                     , minimal-configuration
                     , minimung
@@ -3094,6 +2847,8 @@ library
                     , ministg
                     , mirror-tweet
                     , missing-py2
+                    , MissingM
+                    , MissingPy
                     , mix-arrows
                     , mkbndl
                     , mkcabal
@@ -3106,7 +2861,10 @@ library
                     , modsplit
                     , modular-prelude-classy
                     , modulespection
+                    , Modulo
                     , modulo
+                    , Moe
+                    , MoeDict
                     , mohws
                     , monad-abort-fd
                     , monad-atom-simple
@@ -3130,20 +2888,29 @@ library
                     , monad-tx
                     , monad-unify
                     , monad-wrap
-                    , monadLib-compose
                     , monadacme
+                    , MonadCatchIO-mtl-foreign
+                    , MonadCatchIO-transformers-foreign
+                    , MonadCompose
                     , monadfibre
                     , monadic-arrays
                     , monadiccp-gecode
                     , monadio-unwrappable
+                    , Monadius
+                    , MonadLab
+                    , monadLib-compose
                     , monadlist
                     , monadloc-pp
+                    , MonadRandomLazy
                     , monadtransform
                     , monarch
+                    , Monaris
+                    , Monatron-IO
                     , mongodb-queue
                     , mongrel2-handler
                     , monitor
                     , mono-foldable
+                    , Monocle
                     , monoidal-containers
                     , monoidplus
                     , montage
@@ -3163,6 +2930,7 @@ library
                     , mqtt-hs
                     , msgpack-aeson
                     , msgpack-rpc
+                    , MSQueue
                     , msu
                     , mtgoxapi
                     , mtl-c
@@ -3170,6 +2938,10 @@ library
                     , mtlx
                     , mtp
                     , mtree
+                    , MuCheck-Hspec
+                    , MuCheck-HUnit
+                    , MuCheck-QuickCheck
+                    , MuCheck-SmallCheck
                     , mucipher
                     , mudbath
                     , multext-east-msd
@@ -3180,23 +2952,26 @@ library
                     , multirec-alt-deriver
                     , multirec-binary
                     , multistate
+                    , Munkres-simple
                     , muon
                     , murmurhash3
                     , music-graphics
                     , music-sibelius
                     , music-suite
                     , music-util
+                    , MusicBrainz
+                    , MusicBrainz-libdiscid
                     , mustache2hs
                     , mutable-iter
                     , mute-unmute
                     , mvc-updates
                     , mvclient
-                    , myTestlll
                     , mybitcoin-sci
                     , mysnapsession-example
                     , mysql-effect
                     , mysql-simple-quasi
                     , mysql-simple-typed
+                    , myTestlll
                     , n-m
                     , named-lock
                     , nano-cryptr
@@ -3205,6 +2980,7 @@ library
                     , nanocurses
                     , nanomsg
                     , nanoparsec
+                    , NanoProlog
                     , nanospec
                     , narc
                     , nat
@@ -3212,7 +2988,9 @@ library
                     , natural-numbers
                     , natural-transformation
                     , naturalcomp
+                    , NaturalLanguageAlphabets
                     , naturals
+                    , NaturalSort
                     , nbt
                     , nc-indicators
                     , needle
@@ -3223,6 +3001,7 @@ library
                     , nerf
                     , nero-warp
                     , nested-routes
+                    , NestedSampling
                     , net-concurrent
                     , netclock
                     , netcore
@@ -3240,6 +3019,7 @@ library
                     , network-minihttp
                     , network-msg
                     , network-netpacket
+                    , Network-NineP
                     , network-pgi
                     , network-rpca
                     , network-server
@@ -3256,8 +3036,10 @@ library
                     , newtyper
                     , nextstep-plist
                     , nf
+                    , NGrams
                     , nikepub
                     , nimber
+                    , Ninjas
                     , nitro
                     , nixos-types
                     , nkjp
@@ -3265,27 +3047,43 @@ library
                     , nme
                     , nntp
                     , no-role-annots
+                    , Noise
+                    , Nomyx
+                    , Nomyx-Rules
+                    , NonEmptyList
                     , nonfree
                     , nonlinear-optimization-ad
+                    , NoSlow
                     , not-gloss-examples
                     , notcpp
                     , notmuch-haskell
+                    , NoTrace
                     , np-linear
                     , nptools
                     , nsis
                     , nthable
                     , ntp-control
+                    , NTRU
                     , null-canvas
                     , numbering
+                    , Numbers
+                    , NumberSieves
                     , numerals
                     , numerals-base
                     , numeric-limits
+                    , NumLazyByteString
                     , nums
+                    , Nussinov78
+                    , Nutri
+                    , NXTDSL
                     , nyan
                     , nymphaea
                     , oauthenticated
                     , obdd
                     , obj
+                    , Object
+                    , ObjectIO
+                    , Obsidian
                     , octopus
                     , oculus
                     , off-simple
@@ -3294,6 +3092,7 @@ library
                     , ois-input-manager
                     , olwrapper
                     , omaketex
+                    , Omega
                     , omega
                     , omnicodec
                     , on-a-horse
@@ -3306,15 +3105,23 @@ library
                     , open-pandoc
                     , open-typerep
                     , open-witness
+                    , OpenAFP-Utils
+                    , OpenCL
+                    , OpenCLRaw
+                    , OpenCLWrappers
                     , opencv-raw
                     , openexchangerates
                     , opengles
+                    , OpenGLRaw21
                     , openid
                     , openpgp-Crypto
+                    , OpenSCAD
                     , openssh-github-keys
                     , openssl-createkey
                     , opentheory-char
                     , opentheory-prime
+                    , OpenVG
+                    , Operads
                     , opn
                     , optimal-blocks
                     , optimization
@@ -3324,14 +3131,18 @@ library
                     , orchid-demo
                     , ord-adhoc
                     , order-statistics
+                    , Ordinals
                     , ordrea
                     , organize-imports
                     , orgmode-parse
                     , origami
+                    , OrPatterns
                     , os-release
+                    , OSM
                     , osm-download
                     , osx-ar
                     , ot
+                    , OTP
                     , ottparse-pretty
                     , overture
                     , pack
@@ -3340,7 +3151,9 @@ library
                     , packunused
                     , pacman-memcache
                     , padKONTROL
+                    , PageIO
                     , pagerduty
+                    , Paillier
                     , palette
                     , palindromes
                     , panda
@@ -3350,12 +3163,15 @@ library
                     , pappy
                     , para
                     , paragon
+                    , Paraiso
                     , parallel-tasks
                     , parco-attoparsec
                     , parco-parsec
                     , parcom-lib
                     , parconc-examples
                     , parport
+                    , PArrows
+                    , Parry
                     , parse-help
                     , parsec-parsers
                     , parsec-tagsoup
@@ -3364,16 +3180,20 @@ library
                     , parseerror-eq
                     , parsely
                     , parser-helper
+                    , ParserFunction
                     , parsergen
                     , partial
                     , partial-lens
                     , partial-uri
+                    , PartialTypeSignatures
                     , partly
                     , passage
+                    , PasswordGenerator
                     , passwords
                     , pastis
                     , pasty
                     , patch-image
+                    , Pathfinder
                     , pathfinding
                     , pathfindingcore
                     , patronscraper
@@ -3386,8 +3206,10 @@ library
                     , pcap-enumerator
                     , pcf
                     , pcg-random
+                    , PCLT-DB
                     , pcre-less
                     , pcre-light-extra
+                    , PDBtools
                     , pdf-toolbox-viewer
                     , pdf2line
                     , pdfsplit
@@ -3400,7 +3222,9 @@ library
                     , penny-bin
                     , peparser
                     , perceptron
+                    , PerfectHash
                     , perm
+                    , PermuteEffects
                     , persistent-cereal
                     , persistent-equivalence
                     , persistent-hssqlppp
@@ -3449,10 +3273,13 @@ library
                     , pipes-websockets
                     , pipes-zlib
                     , pisigma
+                    , Piso
                     , pkggraph
                     , pktree
                     , planar-graph
                     , plat
+                    , PlayHangmanGame
+                    , PlayingCards
                     , plist
                     , plivo
                     , plot-gtk
@@ -3460,7 +3287,9 @@ library
                     , plot-gtk3
                     , plot-lab
                     , plotserver-api
+                    , PlslTools
                     , plumbers
+                    , Plural
                     , pngload-fixed
                     , pnm
                     , pocket-dns
@@ -3468,8 +3297,9 @@ library
                     , pokitdok
                     , polar
                     , polh-lexicon
-                    , polyToMonoid
+                    , Pollutocracy
                     , polyseq
+                    , polyToMonoid
                     , polytypeable-utils
                     , ponder
                     , pontarius-mediaserver
@@ -3481,6 +3311,7 @@ library
                     , portable-lines
                     , porte
                     , porter
+                    , PortFusion
                     , ports
                     , posix-acl
                     , posix-filelock
@@ -3490,6 +3321,7 @@ library
                     , possible
                     , post-mess-age
                     , postcodes
+                    , PostgreSQL
                     , postgresql-config
                     , postgresql-copy-escape
                     , postgresql-query
@@ -3517,9 +3349,12 @@ library
                     , primula-board
                     , primula-bot
                     , printf-mauke
+                    , Printf-TH
                     , printxosd
+                    , PriorityChansConverger
                     , privileged-concurrency
                     , prizm
+                    , ProbabilityMonads
                     , probable
                     , process-iterio
                     , process-progress
@@ -3546,14 +3381,19 @@ library
                     , proteaaudio
                     , prototype
                     , prove-everywhere-server
+                    , ProxN
                     , pseudomacros
+                    , PTQ
                     , pub
                     , publicsuffixlistcreate
                     , pubsub
                     , pugixml
-                    , pugs-HsSyck
+                    , Pugs
                     , pugs-hsregex
+                    , pugs-HsSyck
                     , punkt
+                    , Pup-Events
+                    , Pup-Events-Demo
                     , puppetresources
                     , pure-io
                     , pure-priority-queue-tests
@@ -3569,8 +3409,11 @@ library
                     , pyfi
                     , qc-oi-testgenerator
                     , qhull-simple
+                    , QIO
                     , qrcode
+                    , QuadEdge
                     , quadratic-irrational
+                    , QuadTree
                     , quandl-api
                     , quantfin
                     , quantities
@@ -3579,6 +3422,8 @@ library
                     , querystring-pickle
                     , queuelike
                     , quick-generator
+                    , QuickAnnotate
+                    , QuickCheck-GenT
                     , quickcheck-poly
                     , quickcheck-properties
                     , quickcheck-property-comb
@@ -3590,6 +3435,7 @@ library
                     , quickcheck-webdriver
                     , quicklz
                     , quickset
+                    , Quickson
                     , quickspec
                     , quicktest
                     , quickwebapp
@@ -3599,6 +3445,7 @@ library
                     , radium-formula-parser
                     , radix
                     , rados-haskell
+                    , Raincat
                     , rakhana
                     , ralist
                     , rand-vars
@@ -3609,14 +3456,21 @@ library
                     , random-effin
                     , random-hypergeometric
                     , random-stream
+                    , Random123
+                    , RandomDotOrg
+                    , Randometer
                     , randomgen
                     , randproc
                     , randsolid
+                    , Range
                     , range-set-list
                     , range-space
                     , rangemin
                     , ranges
+                    , Ranka
+                    , RANSAC
                     , rascal
+                    , Rasenschach
                     , rate-limit
                     , raven-haskell-scotty
                     , rawstring-qm
@@ -3645,8 +3499,10 @@ library
                     , redis-hs
                     , redis-io
                     , redis-simple
+                    , Redmine
                     , redo
                     , reenact
+                    , Ref
                     , ref
                     , refcount
                     , references
@@ -3711,6 +3567,7 @@ library
                     , rest-happstack
                     , rest-snap
                     , rest-wai
+                    , RESTng
                     , restricted-workers
                     , restyle
                     , resumable-exceptions
@@ -3721,12 +3578,15 @@ library
                     , revdectime
                     , reverse-geocoding
                     , reversi
+                    , ReviewBoard
                     , rewrite
                     , rewriting
                     , rex
                     , rezoom
+                    , RFC1751
                     , rfc3339
                     , rhythm-game-tutorial
+                    , RichConditional
                     , ring-buffer
                     , riot
                     , ripple
@@ -3734,6 +3594,11 @@ library
                     , risc386
                     , rivers
                     , rmonad
+                    , RMP
+                    , RNAdesign
+                    , RNAdraw
+                    , RNAFoldProgs
+                    , RNAwolf
                     , rng-utils
                     , robots-txt
                     , rocksdb-haskell
@@ -3742,6 +3607,7 @@ library
                     , roguestar-glut
                     , rollbar
                     , rolling-queue
+                    , RollingDirectory
                     , romkan
                     , rope
                     , rosa
@@ -3768,7 +3634,9 @@ library
                     , runghc
                     , runmemo
                     , rws
+                    , RxHaskell
                     , s3-signer
+                    , SableCC2Hs
                     , safe-access
                     , safe-failure-cme
                     , safe-freeze
@@ -3780,6 +3648,7 @@ library
                     , safer-file-handles-text
                     , saferoute
                     , sai-shape-syb
+                    , Salsa
                     , saltine-quickcheck
                     , salvia-demo
                     , samtools-conduit
@@ -3794,6 +3663,7 @@ library
                     , satchmo-funsat
                     , satchmo-minisat
                     , satchmo-toysat
+                    , SBench
                     , scalable-server
                     , scaleimage
                     , scalpel
@@ -3808,8 +3678,10 @@ library
                     , schonfinkeling
                     , sci-ratio
                     , science-constants-dimensional
+                    , SciFlow
                     , scion
                     , scion-browser
+                    , SConfig
                     , scons2dot
                     , scope-cairo
                     , scottish
@@ -3821,13 +3693,17 @@ library
                     , scotty-session
                     , scotty-tls
                     , scrabble-bot
+                    , ScratchFs
                     , scrobble
                     , scroll
                     , scrz
+                    , Scurry
                     , scyther-proof
                     , sde-solver
                     , sdf2p1-parser
+                    , SDL-mpeg
                     , sdl2-image
+                    , SDL2-ttf
                     , sdl2-ttf
                     , sdnv
                     , sdr
@@ -3840,10 +3716,12 @@ library
                     , secret-santa
                     , secrm
                     , secure-sockets
+                    , SegmentTree
                     , selectors
                     , selenium
                     , selenium-server
                     , selfrestart
+                    , Semantique
                     , semaphore-plus
                     , semigroupoids-syntax
                     , semigroups-actions
@@ -3851,6 +3729,7 @@ library
                     , sensenet
                     , senza
                     , separated
+                    , SeqAlign
                     , seqid-streams
                     , seqloc-datafiles
                     , sequence
@@ -3863,6 +3742,7 @@ library
                     , servant-scotty
                     , servius
                     , ses-html-snaplet
+                    , SessionLogger
                     , sessions
                     , set-cover
                     , setdown
@@ -3871,7 +3751,9 @@ library
                     , sexpr
                     , sext
                     , sfml-audio
+                    , SFML-control
                     , sfmt
+                    , SGdemo
                     , sgrep
                     , shadower
                     , shadowsocks
@@ -3890,6 +3772,7 @@ library
                     , sharedio
                     , shell-monad
                     , shell-pipe
+                    , Shellac-haskeline
                     , shellish
                     , shelltestrunner
                     , shelly-extra
@@ -3902,6 +3785,8 @@ library
                     , shpider
                     , shplit
                     , shqq
+                    , Shrub
+                    , Shu-thing
                     , sieve
                     , sifflet
                     , signals
@@ -3928,7 +3813,10 @@ library
                     , simple-sessions
                     , simple-smt
                     , simple-vec3
+                    , SimpleEA
+                    , SimpleGL
                     , simpleirc-lens
+                    , SimpleLog
                     , simplenote
                     , simpleprelude
                     , simplesmtpclient
@@ -3939,6 +3827,7 @@ library
                     , sink
                     , sirkel
                     , sitemap
+                    , SizeCompare
                     , sized
                     , sizes
                     , skell
@@ -3958,12 +3847,15 @@ library
                     , smartconstructor
                     , smartword
                     , sme
+                    , Smooth
                     , smoothie
                     , smt-lib
+                    , SmtLib
                     , smtlib2
                     , smtp-mail
                     , smtp-mail-ng
                     , smtp2mta
+                    , SMTPClient
                     , smtps-gmail
                     , snake-game
                     , snap-auth-cli
@@ -4012,19 +3904,24 @@ library
                     , snappy-framing
                     , snappy-iteratee
                     , sndfile-enumerators
+                    , SNet
                     , snippet-extractor
                     , snm
                     , snow-white
                     , snowflake
                     , snowglobe
+                    , Snusmumrik
                     , soap-openssl
                     , soap-tls
+                    , SoccerFunGL
                     , sock2stream
                     , socket-activation
                     , socketio
                     , soegtk
                     , som
                     , sonic-visualiser
+                    , Sonnex
+                    , SoOSiM
                     , sophia
                     , sort-by-pinyin
                     , sorted
@@ -4033,10 +3930,13 @@ library
                     , sound-collage
                     , sounddelay
                     , source-code-server
+                    , SourceGraph
                     , sousit
                     , soyuz
                     , spacefill
+                    , SpaceInvaders
                     , spacepart
+                    , SpacePrivateers
                     , sparse
                     , sparse-lin-alg
                     , sparsebit
@@ -4053,6 +3953,7 @@ library
                     , sphinx-cli
                     , spice
                     , spike
+                    , SpinCounter
                     , spine
                     , spir-v
                     , splaytree
@@ -4062,6 +3963,9 @@ library
                     , split-tchan
                     , splitter
                     , splot
+                    , Spock-auth
+                    , Spock-digestive
+                    , Spock-worker
                     , spool
                     , spoty
                     , spritz
@@ -4071,6 +3975,7 @@ library
                     , sql-simple-pool
                     , sql-simple-postgresql
                     , sql-simple-sqlite
+                    , SQLDeps
                     , sqlite-simple-typed
                     , sqlvalue-list
                     , squeeze
@@ -4089,11 +3994,12 @@ library
                     , star-to-star-contra
                     , starling
                     , starrover2
+                    , Stasis
                     , state
                     , state-record
-                    , stateWriter
                     , statechart
                     , statethread
+                    , stateWriter
                     , statgrab
                     , static-resources
                     , statistics-dirichlet
@@ -4121,18 +4027,22 @@ library
                     , stm-sbchan
                     , stm-stats
                     , stmcontrol
+                    , Stomp
                     , stomp-conduit
                     , stomp-patterns
                     , storable
                     , storable-static-array
                     , storablevector-streamfusion
                     , str
+                    , Strafunski-Sdf2Haskell
+                    , StrategyLib
                     , stratum-tool
                     , streamed
                     , streaming-histogram
                     , streamproc
                     , strict-ghc-plugin
                     , strict-identity
+                    , StrictBench
                     , strictify
                     , strictly
                     , string
@@ -4161,6 +4071,7 @@ library
                     , supercollider-midi
                     , supero
                     , supervisor
+                    , SVG2Q
                     , svg2q
                     , svm
                     , svm-light-utils
@@ -4169,6 +4080,7 @@ library
                     , swapper
                     , swearjure
                     , swf
+                    , SWMMoutGetMB
                     , sws
                     , syb-extras
                     , sylvia
@@ -4181,10 +4093,12 @@ library
                     , syntax-example-json
                     , syntax-pretty
                     , syntax-trees
+                    , SyntaxMacros
                     , synthesizer
                     , synthesizer-alsa
                     , synthesizer-inference
                     , synthesizer-llvm
+                    , Sysmon
                     , system-canonicalpath
                     , system-command
                     , system-gpio
@@ -4198,7 +4112,9 @@ library
                     , table
                     , table-tennis
                     , tableaux
+                    , Tables
                     , tablestorage
+                    , Tablify
                     , tabloid
                     , taffybar
                     , tag-bits
@@ -4229,6 +4145,8 @@ library
                     , tasty-silver
                     , tasty-th
                     , tau
+                    , TBC
+                    , TBit
                     , tbox
                     , tcache-AWS
                     , tccli
@@ -4236,6 +4154,7 @@ library
                     , tcp
                     , tdd-util
                     , tdoc
+                    , TeaHS
                     , teams
                     , teeth
                     , tellbot
@@ -4247,10 +4166,12 @@ library
                     , temporal-music-notation-demo
                     , temporary-resourcet
                     , tempus
+                    , Tensor
                     , tensor
                     , term-rewriting
                     , termination-combinators
                     , terminfo-hs
+                    , TernaryTrees
                     , terrahs
                     , tersmu
                     , test-framework-doctest
@@ -4266,10 +4187,10 @@ library
                     , test-sandbox-hunit
                     , test-sandbox-quickcheck
                     , test-simple
-                    , testPkg
                     , testloop
                     , testpack
                     , testpattern
+                    , testPkg
                     , testrunner
                     , tetris
                     , tex2txt
@@ -4285,8 +4206,8 @@ library
                     , text-utf7
                     , text-xml-generic
                     , text-xml-qq
-                    , textPlot
                     , textmatetags
+                    , textPlot
                     , texts
                     , tfp-th
                     , tga
@@ -4298,13 +4219,16 @@ library
                     , th-instances
                     , th-lift-instances
                     , themplate
+                    , Theora
                     , theoremquest-client
                     , thespian
                     , theta-functions
                     , thih
                     , thimk
+                    , Thingie
                     , thorn
                     , thread-local-storage
+                    , ThreadObjects
                     , threadPool
                     , threads-pool
                     , threadscope
@@ -4315,11 +4239,13 @@ library
                     , tianbar
                     , tic-tac-toe
                     , tickle
+                    , TicTacToe
                     , tidal-midi
                     , tidal-vis
                     , tie-knot
                     , tiempo
                     , tiger
+                    , TigerHash
                     , tightrope
                     , tilings
                     , timberc
@@ -4334,13 +4260,17 @@ library
                     , timeout-control
                     , timeout-with-results
                     , timeparsers
+                    , TimePiece
                     , timeplot
                     , timestamp-subprocess-lines
                     , timestamper
                     , timezone-olson-th
                     , timing-convenience
+                    , TinyLaunchbury
                     , tinyMesh
                     , tinytemplate
+                    , TinyURL
+                    , Titim
                     , titlecase
                     , tkhs
                     , tkyprof
@@ -4361,11 +4291,13 @@ library
                     , total
                     , total-map
                     , total-maps
+                    , Tournament
                     , tpdb
                     , trace-call
                     , trace-function-call
                     , traced
                     , tracer
+                    , TraceUtils
                     , tracker
                     , trajectory
                     , transactional-events
@@ -4374,11 +4306,18 @@ library
                     , transformers-convert
                     , transformers-runnable
                     , transformers-supply
+                    , TransformersStepByStep
+                    , Transhare
                     , translatable-intset
                     , translate
                     , traypoweroff
+                    , TreeCounter
                     , treemap-html-tools
+                    , TreeStructures
+                    , TreeT
                     , treeviz
+                    , Treiber
+                    , TrendGraph
                     , trhsx
                     , triangulation
                     , trimpolya
@@ -4420,9 +4359,11 @@ library
                     , twitter
                     , twitter-enumerator
                     , twitter-feed
+                    , Twofish
                     , tx
                     , txt2rtf
                     , txtblk
+                    , TYB
                     , typalyze
                     , type
                     , type-booleans
@@ -4435,20 +4376,25 @@ library
                     , type-settheory
                     , type-structure
                     , typeable-th
+                    , TypeClass
                     , typehash
+                    , TypeIlluminator
+                    , TypeNat
                     , typeof
                     , typeparams
                     , typescript-docs
+                    , TypingTester
                     , tz
-                    , uAgda
                     , ua-parser
                     , uacpid
+                    , uAgda
                     , uberlast
                     , uconv
                     , udbus-model
                     , udcode
                     , uhexdump
                     , uid
+                    , UMM
                     , una
                     , unagi-streams
                     , unamb-custom
@@ -4465,6 +4411,7 @@ library
                     , unicoder
                     , uniform-pair
                     , union-map
+                    , Unique
                     , unique-logic
                     , unique-logic-tf
                     , uniqueid
@@ -4477,6 +4424,7 @@ library
                     , unix-memory
                     , unix-process-conduit
                     , unix-pty-light
+                    , Unixutils-shadow
                     , unlit
                     , unm-hip
                     , unordered-containers-rematch
@@ -4494,19 +4442,24 @@ library
                     , uri-bytestring
                     , uri-enumerator-file
                     , url-generic
+                    , URLb
                     , urlcheck
                     , urldecode
+                    , UrlDisp
                     , urldisp-happstack
+                    , URLT
                     , urn
                     , urxml
                     , usb-enumerator
                     , usb-hid
                     , usb-iteratee
                     , usb-safe
+                    , Useful
                     , users-postgresql-simple
                     , users-test
                     , utc
                     , utf8-prelude
+                    , UtilityTM
                     , uu-cco-examples
                     , uu-cco-hut-parsing
                     , uu-cco-uu-parsinglib
@@ -4528,6 +4481,7 @@ library
                     , valid-names
                     , validate
                     , validate-input
+                    , Validation
                     , validations
                     , vampire
                     , var
@@ -4536,6 +4490,7 @@ library
                     , variables
                     , vcache-trie
                     , vcard
+                    , VecN
                     , vect-floating-accelerate
                     , vect-opengl
                     , vector-buffer
@@ -4552,6 +4507,7 @@ library
                     , verbalexpressions
                     , verilog
                     , vhd
+                    , ViennaRNAParser
                     , views
                     , vigilance
                     , vintage-basic
@@ -4564,6 +4520,7 @@ library
                     , visual-prof
                     , vivid
                     , vk-aws-route53
+                    , VKHS
                     , vorbiscomment
                     , vowpal-utils
                     , voyeur
@@ -4605,10 +4562,12 @@ library
                     , waitfree
                     , waitra
                     , warp-static
+                    , WashNGo
                     , watcher
                     , watchit
                     , wavconvert
                     , wavesurfer
+                    , Weather
                     , weather-api
                     , web-browser-in-haskell
                     , web-fpco
@@ -4616,12 +4575,16 @@ library
                     , web-page
                     , web-routes-quasi
                     , web-routes-transformers
+                    , WebBits-multiplate
+                    , WebCont
                     , webdriver-angular
                     , webdriver-snoy
+                    , WeberLogic
                     , webidl
                     , webify
                     , webkit-javascriptcore
                     , webpage
+                    , Webrexp
                     , websnap
                     , webwire
                     , wedding-announcement
@@ -4636,18 +4599,30 @@ library
                     , whiskers
                     , whitespace
                     , whois
+                    , WikimediaParser
                     , wikipedia4epub
+                    , Win32-dhcp-server
+                    , Win32-extras
+                    , Win32-junction-point
+                    , Win32-security
+                    , Win32-services-wrapper
                     , windowslive
                     , winio
+                    , Wired
                     , wiring
                     , witty
                     , wkt
                     , wl-pprint-ansiterm
+                    , WL500gPControl
+                    , WMSigner
                     , woffex
                     , wol
                     , word12
                     , wordcloud
                     , wordexp
+                    , Wordlint
+                    , WordNet
+                    , WordNet-ghc74
                     , wordpass
                     , words
                     , wordsearch
@@ -4659,18 +4634,26 @@ library
                     , wsedit
                     , wumpus-microprint
                     , wumpus-tree
+                    , WURFL
                     , wxAsteroids
+                    , WXDiffCtrl
                     , wxFruit
+                    , WxGeneric
                     , wxhnotepad
                     , wxturtle
                     , wybor
                     , wyvern
                     , x-dsp
+                    , X11-extras
+                    , X11-xdamage
+                    , X11-xfixes
                     , x11-xinput
                     , x509-util
+                    , XAttr
                     , xbattbar
                     , xchat-plugin
                     , xdg-userdirs
+                    , Xec
                     , xenstore
                     , xfconf
                     , xhaskell-library
@@ -4678,6 +4661,7 @@ library
                     , xilinx-lava
                     , xine
                     , xing-api
+                    , XInput
                     , xinput-conduit
                     , xkbcommon
                     , xkcd
@@ -4693,7 +4677,9 @@ library
                     , xml-push
                     , xml2html
                     , xml2x
+                    , XmlHtmlWriter
                     , xmltv
+                    , XMMS
                     , xmobar
                     , xmonad-contrib-bluetilebranch
                     , xmonad-contrib-gpl
@@ -4703,13 +4689,17 @@ library
                     , xmonad-screenshot
                     , xmonad-utils
                     , xorshift
+                    , Xorshift128Plus
                     , xsact
+                    , XSaiga
                     , xsha1
                     , xtest
                     , xxhash
                     , y0l0bot
                     , yabi
+                    , Yablog
                     , yackage
+                    , YACPong
                     , yahoo-finance-conduit
                     , yahoo-web-search
                     , yajl-enumerator
@@ -4718,9 +4708,11 @@ library
                     , yaml-rpc-scotty
                     , yaml-rpc-snap
                     , yaml2owl
+                    , YamlReference
                     , yampa-canvas
                     , yampa-glut
                     , yampa2048
+                    , YampaSynth
                     , yaop
                     , yarr-image-io
                     , yavie
@@ -4770,6 +4762,7 @@ library
                     , yesod-transloadit
                     , yesod-websockets-extra
                     , yesod-worker
+                    , YFrob
                     , yi-contrib
                     , yi-emacs-colours
                     , yi-fuzzy-open
@@ -4782,7 +4775,9 @@ library
                     , yices-painless
                     , yjftp
                     , yjftp-libs
+                    , Yocto
                     , yocto
+                    , Yogurt-Standalone
                     , yoko
                     , york-lava
                     , youtube
@@ -4795,13 +4790,17 @@ library
                     , zeno
                     , zeromq3-conduit
                     , zeroth
+                    , ZFS
                     , zigbee-znet25
                     , zip-conduit
                     , zipedit
+                    , ZipFold
                     , zipper
+                    , ZipperAG
                     , zippers
                     , zippo
                     , zlib-lens
+                    , ZMachine
                     , zmidi-score
                     , zmqat
                     , zoneinfo
@@ -4810,3 +4809,4 @@ library
                     , zot
                     , zsh-battery
                     , ztail
+                    , Zwaluw
